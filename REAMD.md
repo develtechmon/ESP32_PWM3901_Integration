@@ -2,4 +2,4 @@
 
 For this project, i'm using Generic `PWM3901` Optical Flow sensor and `ESP32 38` MCU. Below is schematic pin configuration
 
-![image](https://github.com/user-attachments/assets/60071d70-59e5-4de1-926a-ecd6d5aab0f5)
+![image](https://github.com/user-attachments/assets/7b0ce908-f193-4665-a9e3-d7be3c00f7c5)
