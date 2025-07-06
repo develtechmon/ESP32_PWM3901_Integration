@@ -2,10 +2,18 @@
 #include "Bitcraze_PMW3901.h"
 
 // ── PIN DEFINITIONS ─────────────────────────────────────────────────────────────
-static constexpr uint8_t PIN_SCK  = 18;
-static constexpr uint8_t PIN_MISO = 19;
-static constexpr uint8_t PIN_MOSI = 23;
-static constexpr uint8_t PIN_CS   = 5;
+// For ESP32 38 Pin
+// static constexpr uint8_t PIN_SCK  = 18;
+// static constexpr uint8_t PIN_MISO = 19;
+// static constexpr uint8_t PIN_MOSI = 23;
+// static constexpr uint8_t PIN_CS   = 5;
+
+// For ESP32-S3 Super Mini
+static constexpr uint8_t PIN_SCK  = 3;
+static constexpr uint8_t PIN_MISO = 6;
+static constexpr uint8_t PIN_MOSI = 1;
+static constexpr uint8_t PIN_CS   = 7;
+
 
 // Create the sensor instance on CS pin
 Bitcraze_PMW3901 flow(PIN_CS);
